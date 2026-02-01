@@ -1,4 +1,4 @@
-module mcp_btez
+module ezbt-mcp
 
 go 1.24.1
 

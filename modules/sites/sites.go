@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"mcp_btez/utils"
+	"ezbt-mcp/utils"
 	"strings"
 
 	"github.com/mark3labs/mcp-go/mcp"

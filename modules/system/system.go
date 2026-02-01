@@ -2,7 +2,7 @@ package system
 
 import (
 	"context"
-	"mcp_btez/utils"
+	"ezbt-mcp/utils"
 
 	"github.com/mark3labs/mcp-go/mcp"
 )

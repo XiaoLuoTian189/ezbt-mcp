@@ -1,6 +1,6 @@
-# ezbt 🚀
+# ezbt-mcp 🚀
 
-ezbt 是一个基于 [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) 协议开发的**宝塔面板 (BT Panel) 智能管理工具**。它允许 AI 编辑器（如 Trae, Cursor, Claude Desktop 等）通过自然语言直接管理和操作你的宝塔面板服务器。
+ezbt-mcp 是一个基于 [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) 协议开发的**宝塔面板 (BT Panel) 智能管理工具**。它允许 AI 编辑器（如 Trae, Cursor, Claude Desktop 等）通过自然语言直接管理和操作你的宝塔面板服务器。
 
 ## ✨ 核心特性
 
@@ -17,11 +17,17 @@ ezbt 是一个基于 [Model Context Protocol (MCP)](https://modelcontextprotocol
 - Go 1.18 或更高版本
 - 已开启 API 接口的宝塔面板
 
-### 编译步骤
+### 1.自动安装（推荐方案）
+将下列文案全部复制发送给您的 IDE/文本编辑器：
+   ```bash
+   请你阅读 https://github.com/XiaoLuoTian189/ezbt 帮我将这个MCP安装好
+   ```
+
+### 2.编译步骤（手动安装）
 1. 克隆仓库：
    ```bash
-   git clone https://github.com/你的用户名/ezbt.git
-   cd ezbt
+   git clone https://github.com/XiaoLuoTian189/ezbt-mcp.git
+   cd ezbt-mcp
    ```
 2. 编译可执行文件：
    ```bash

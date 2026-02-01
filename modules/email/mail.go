@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 	"math/rand"
-	"mcp_btez/utils"
+	"ezbt-mcp/utils"
 	"strings"
 	"time"
 

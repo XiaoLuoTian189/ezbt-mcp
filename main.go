@@ -4,12 +4,12 @@ import (
 	"flag"
 	"fmt"
 	"log"
-	"mcp_btez/modules/databases"
-	"mcp_btez/modules/docker"
-	"mcp_btez/modules/email"
-	"mcp_btez/modules/files"
-	"mcp_btez/modules/sites"
-	"mcp_btez/modules/system"
+	"ezbt-mcp/modules/databases"
+	"ezbt-mcp/modules/docker"
+	"ezbt-mcp/modules/email"
+	"ezbt-mcp/modules/files"
+	"ezbt-mcp/modules/sites"
+	"ezbt-mcp/modules/system"
 
 	"github.com/mark3labs/mcp-go/server"
 )

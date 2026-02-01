@@ -3,7 +3,7 @@ package files
 import (
 	"context"
 	"fmt"
-	"mcp_btez/utils"
+	"ezbt-mcp/utils"
 
 	"github.com/mark3labs/mcp-go/mcp"
 )
