@@ -1,6 +1,6 @@
 # EZBT-MCP
 
-EZBT-MCP 是一个基于 [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) 协议开发的**宝塔面板 (BT Panel) 智能管理工具**。它允许 AI 编辑器（如 Trae, Cursor, Claude Desktop 等）通过自然语言直接管理和操作你的宝塔面板服务器。
+EZBT-MCP 是一个基于 [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) 协议开发的**宝塔面板 (BT Panel) 智能管理工具**。它允许 AI 编辑器（如 Trae, Cursor等）通过自然语言直接管理和操作你的宝塔面板服务器。
 
 ## 核心特性
 
@@ -52,16 +52,11 @@ EZBT-MCP 是一个基于 [Model Context Protocol (MCP)](https://modelcontextprot
 }
 ```
 
-> **注意**：请确保在宝塔面板后台将你运行 AI 编辑器的 IP 加入到 API 接口的白名单中。
+> **注意**：请确保在宝塔面板后台将你运行 AI 编辑器的 IP 加入到 API 接口的白名单中，如果您的电脑没有固定的公网IP，请您在IP白名单填写 * ，但是这将是危险的，请你务必注意在使用完毕后关闭API！
 
 ## 使用示例
 
-你可以直接对 AI 说：
-- "帮我列出服务器上所有的网站。"
-- "使用域名 test.com 创建一个新网站。"
-- "读取 /www/wwwroot/test.com/config.php 的内容。"
-- "把 /www/wwwroot/ 目录下的 index.php 权限改为 755。"
-- "查看当前服务器的内存占用情况。"
+你可以直接对 AI 说出目前工具支持的功能，并且他会在适当的时候被泛调用！
 
 ## 开源协议
 本项目采用 [MIT License](LICENSE) 开源。
